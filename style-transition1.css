@@ -1,0 +1,30 @@
+.form-carre{
+    width: 100px;
+    height: 100px;
+    background-color: #03C4FB;
+    box-sizing: border-box ;
+}
+.transition1:hover{
+    background-color: #ffdd40;
+}
+.transition1{
+    transition-property: background-color ;
+    transition-duration: 2s;
+}
+.transition2:hover{
+    border: 10px solid #ffdd00 ;
+}
+.transition2{
+    transition-property: border;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+    transition-timing-function: linear;
+}
+.transition3:hover{
+    border-radius: 50%;
+    background-color: #ffdd40;
+}
+.transition3{
+    transition-property: all;
+    transition-duration: 2s;
+}
